@@ -3,28 +3,71 @@
     display: flex;
     flex-direction: column;
     margin-top: 4vw;
-    padding: 30px 25px;
+    padding: 3vw 3vw;
 }
 
 .hero--photo-grid {
-    width: 55vw;
+    width: 70vw;
     align-self: center;
 }
 
 .hero--title {
-    font-size: 2.5vw;
+    font-size: 5vw;
     font-weight: 600;
-    margin-top: 8vh;
+    margin-top: 6vh;
     margin-bottom: 0;
 }
 
 .hero--description {
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     font-weight: 300;
     width: 70%;
 }
 
 /* Responsive width */
+@media (min-width: 576px) {
+    .hero--photo-grid {
+        width: 65vw;
+    } 
+    
+    .hero--title {
+        font-size: 5vw;
+        margin-top: 8vh;
+    }
+
+    .hero--description {
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero--photo-grid {
+        width: 65vw;
+    }
+    
+    .hero--title {
+        font-size: 4.5vw;
+    }
+
+    .hero--description {
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero--photo-grid {
+        width: 50vw;
+    }
+    
+    .hero--title {
+        font-size: 2.6vw;
+    }
+
+    .hero--description {
+        font-size: 1.8vw;
+    }
+}
+
 @media (min-width: 1600px) {
     .hero--photo-grid {
         width: 50vw;
@@ -36,20 +79,5 @@
 
     .hero--description {
         font-size: 2vw;
-    }
-}
-
-@media (max-width: 768px) {
-    .hero--photo-grid {
-        width: 80vw;
-    }
-    
-    .hero--title {
-        font-size: 6vw;
-        margin-top: 4vh;
-    }
-
-    .hero--description {
-        font-size: 4vw;
     }
 }

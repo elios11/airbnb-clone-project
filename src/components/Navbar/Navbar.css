@@ -5,20 +5,41 @@
 }
 
 .navbar--logo {
-    width: 15vw;
-    padding: 2vw 3vw;
+    width: 28vw;
+    padding: 4vw 4vw;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 576px) {
     .navbar--logo {
-        width: 35vw;
-        padding: 4vw 3vw;
+        width: 20vw;
+        padding: 3vw 3vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar--logo {
+        width: 18vw;
+        padding: 3vw 2vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .navbar--logo {
+        width: 16vw;
+        padding: 2vw 2vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar--logo {
+        width: 14vw;
+        padding: 2vw 2vw;
     }
 }
 
 @media (min-width: 1600px) {
     .navbar--logo {
-        width: 18vw;
-        padding: 2vw 4vw;
+        width: 12vw;
+        padding: 2vw 2vw;
     }
 }
