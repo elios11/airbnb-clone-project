@@ -1,11 +1,15 @@
 import Navbar from "./components/Navbar/Navbar"
-import Main from "./components/Hero/Hero"
+import Hero from "./components/Hero/Hero"
+import Card from "./components/Card/Card"
 
 export default function App() {
     return (
         <div>
             <Navbar />
-            <Main />
+            <Hero />
+            <div className="cards">
+                <Card />
+            </div>
         </div>
     )
 }
