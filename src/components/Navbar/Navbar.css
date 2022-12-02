@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navbar--logo {
+    width: 15vw;
+    padding: 2vw 3vw;
+}
+
+@media (max-width: 768px) {
+    .navbar--logo {
+        width: 35vw;
+        padding: 4vw 3vw;
+    }
+}
+
+@media (min-width: 1600px) {
+    .navbar--logo {
+        width: 18vw;
+        padding: 2vw 4vw;
+    }
+}
