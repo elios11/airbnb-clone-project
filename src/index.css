@@ -6,3 +6,31 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
+
+.cards {
+    font-size: 2.5vw;
+    display: flex;
+    padding: 3vw;
+}
+
+.cards .card:not(:last-child) {
+    margin-right: 5%;
+}
+
+@media (min-width: 768px) {
+    .cards {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .cards {
+        font-size: 1.2vw;
+    }
+}
+
+@media (min-width: 1600px) {
+    .cards {
+        font-size: 1.3vw;
+    }
+}
