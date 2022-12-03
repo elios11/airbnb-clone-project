@@ -1,5 +1,5 @@
 import "./Card.css"
-import star from "../../assets/rating-star.png"
+/* import star from "rating-star.png" */
 
 export default function Card(props) {
     return (
@@ -9,7 +9,7 @@ export default function Card(props) {
                 <div className="card--status">SOLD OUT</div>
             </div>
             <div className="card--rating">
-                <img className="card--star" src={star} />
+                <img className="card--star" src="/images/rating-star.png" />
                 <p>
                     {props.rating}
                     <span className="text-muted"> ({props.reviewCount}) • {props.country} </span>
