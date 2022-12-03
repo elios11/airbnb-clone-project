@@ -26,6 +26,7 @@
 
 .card--img {
     width: 100%;
+    border-radius: 9px;
 }
 
 .card--rating {
@@ -39,16 +40,8 @@
 }
 
 .card--star {
-    width: 2vw;
+    width: 1.3vw;
     margin-right: 0.5vw;
-}
-
-.card--review-count {
-    color: #918E9B;
-}
-
-.card--price {
-    font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -74,6 +67,6 @@
     
     .card--status {
         font-size: 70%;
-        padding: 1rem;
+        padding: 0.5rem;
     }
 }

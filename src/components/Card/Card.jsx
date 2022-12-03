@@ -31,14 +31,14 @@ export default function Card() {
                 <img className="card--star" src={star} />
                 <p>
                     5.0
-                    <span className="card--review-count"> (6) • USA </span>
+                    <span className="text-muted"> (6) • USA </span>
                 </p>
             </div>
             <div className="card--description">
                 Life lessons with Katie Zaferes
             </div>
             <div>
-                <span className="card--price">From $136</span> / person
+                <span className="bold">From $136</span> / person
             </div>
         </div>
     )

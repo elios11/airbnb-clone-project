@@ -7,14 +7,11 @@ body {
     margin: 0;
 }
 
+/* Cards styling */
 .cards {
     font-size: 2.5vw;
     display: flex;
     padding: 3vw;
-}
-
-.cards .card:not(:last-child) {
-    margin-right: 5%;
 }
 
 @media (min-width: 768px) {
@@ -33,4 +30,17 @@ body {
     .cards {
         font-size: 1.3vw;
     }
+}
+
+.cards .card:not(:last-child) {
+    margin-right: 5%;
+}
+
+/* Text styling */
+.text-muted {
+    color: #918E9B;
+}
+
+.bold {
+    font-weight: bold;
 }
