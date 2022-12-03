@@ -1,5 +1,4 @@
-/* import PhotoGrid from "photo-grid.png"
- */import "./Hero.css"
+import "./Hero.css"
 
 export default function Main() {
     return (

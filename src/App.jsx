@@ -1,8 +1,7 @@
 import Navbar from "./components/Navbar/Navbar"
 import Hero from "./components/Hero/Hero"
 import Card from "./components/Card/Card"
-/* import katie_img from "katie-zaferes-img.png"
- */
+
 export default function App() {
     return (
         <div>

@@ -1,5 +1,4 @@
 import "./Card.css"
-/* import star from "rating-star.png" */
 
 export default function Card(props) {
     return (
