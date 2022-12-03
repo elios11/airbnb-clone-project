@@ -1,44 +1,25 @@
-/*
-Challenge: Build the Card component
-For now, hard-code in the data (like 
-the rating, title, price, etc.)
-
-Notes:
-- Only render 1 instance (I already did this for you)
-- The star icon and photo (katie-zaferes.png) are in the images 
-  folder for your use
-- Make sure to include:
-    - image
-    - star icon (star.png), rating, and review count
-    - title
-    - cost/person
-- The main purpose of this challenge is to show you where our limitations
-  currently are, so don't worry about the fact that you're hard-coding all
-  this data into the component.
-*/
 import "./Card.css"
-import katie_img from "../../assets/katie-zaferes-img.png"
 import star from "../../assets/rating-star.png"
 
-export default function Card() {
+export default function Card(props) {
     return (
         <div className="card">
             <div className="card--top">
-                <img className="card--img" src={katie_img} alt="Katie Zaferes picture" />
+                <img className="card--img" src={props.img} alt="Katie Zaferes picture" />
                 <div className="card--status">SOLD OUT</div>
             </div>
             <div className="card--rating">
                 <img className="card--star" src={star} />
                 <p>
-                    5.0
-                    <span className="text-muted"> (6) • USA </span>
+                    {props.rating}
+                    <span className="text-muted"> ({props.reviewCount}) • {props.country} </span>
                 </p>
             </div>
             <div className="card--description">
-                Life lessons with Katie Zaferes
+                {props.title}
             </div>
             <div>
-                <span className="bold">From $136</span> / person
+                <span className="bold">From ${props.price}</span> / person
             </div>
         </div>
     )
