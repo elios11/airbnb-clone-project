@@ -10,3 +10,5 @@ What I've learned and practiced in this project:
 - Modularization
 - Responsiveness in CSS
 - Export default & import
+- React props
+- Conditionals inside JSX elements
