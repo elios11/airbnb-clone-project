@@ -7,13 +7,7 @@ export default function App() {
     const experiencesCards = experiencesData.map(experience => {
         return <Card
                     key={experience.id}
-                    img={`images/${experience.coverImg}`}
-                    rating={experience.stats.rating}
-                    reviewCount={experience.stats.reviewCount}
-                    location={experience.location}
-                    title={experience.title}
-                    price={experience.price}
-                    openSpots={experience.openSpots}
+                    experience={experience}
                />
     })
 
@@ -22,7 +16,6 @@ export default function App() {
             <Navbar />
             <Hero />
             <div className="cards">
-                {experiencesCards}
                 {experiencesCards}
             </div>
         </div>
