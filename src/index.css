@@ -12,6 +12,7 @@ body {
     font-size: 2.5vw;
     display: flex;
     padding: 3vw;
+    overflow-x: auto;
 }
 
 @media (min-width: 768px) {
